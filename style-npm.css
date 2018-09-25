@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+body {
+    font-family: open sans;
+}
+
+h1 {
+    font-weight: 50;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* NAV */
+
+nav {
+    background-color: #C12127;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 35px;
+}
+
+nav a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+.top-links {
+    display: inline-block;
+    float: right;
+    position: relative;
+    bottom: 22px;
+    padding: 0;
+    margin: 0 20px 0 0;
+}
+
+.top-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+
+/* HEADER */
+
+header {
+    background-image: url(images/city-scape.svg);
+    height: 590px;
+    color: white;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.header-bar {
+    float: left;
+}
+
+.header-search {
+    position: relative;
+    left: 150px;
+    bottom: 55px;
+}
+
+header input {
+    width: 960px;
+    height: 40px;
+    background-color: rgb(31, 82, 111);
+    padding-left: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    font-family: open sans;
+}
+
+.header-bar p {
+    float: right;
+    position: relative;
+    bottom: 115px;
+    left: 335px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.header-bar a {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+.header-bar p img {
+    position: relative;
+    top: 15px;
+}
+
+.h-div2 {
+    width: 0 auto;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    left: 100px;
+    top: 20px;
+}
+
+.h-div2 h1 {
+    font-size: 3rem;
+    color: white;
+    width: 500px;
+    position: relative;
+    bottom: 20px;
+}
+
+.h-div2 p {
+    font-size: 1.25em;
+    line-height: 1.5;
+    font-weight: 200;
+    width: 620px;
+}
+
+.h-div2 a {
+    text-decoration: none;
+    color: white;
+    border: none;
+    background-color: rgb(240, 146, 51);
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.25em;
+    line-height: 1.5;
+    font-weight: 200;
+    position: relative;
+    top: 40px;
+}
+
+/* SECTION 1 */
+
+#sec1 {
+    background-color: rgb(39, 53, 71);
+    color: white;
+    padding: 120px 10px;
+}
+
+.sec1-img {
+    float: left;
+    width: 55%;
+}
+
+.sec1-text {
+    float: right;
+    position: relative;
+}
+
+#sec1 h1 {
+    text-align: left;
+    font-size: 34px;
+    font-weight: 300;
+    padding-right: 130px;
+}
+
+#sec1 ul {
+    text-align: left;
+    line-height: 45px;
+    position: relative;
+    left: 20px;
+    padding-top: 20px;
+}
+
+#sec1 a {
+    text-decoration: none;
+    color: white;
+}
+
+#sec1 p {
+    text-align: left;
+    margin: 15px 0;
+    line-height: 40px;
+
+}
+
+.sec1-btn {
+    border: none;
+    background-color: rgb(203, 56, 55);
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: 200;
+}
+
+/* SECTION 2 */
+
+#sec2 {
+    background-image: url(images/forklift.svg);
+    background-size: cover;
+    position: relative;
+    height: 500px;
+    color: white;
+}
+
+.sec2-div {
+    position: absolute;
+    padding-top: 120px;
+    padding-left: 150px;
+}
+
+#sec2 h1 {
+    font-size: 32px;
+    ;
+}
+
+#sec2 p {
+    padding-top: 25px;
+}
+
+#sec2 a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(49, 68, 88);
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+/* SECTION 3 */
+
+#sec3 {
+    background-color: white;
+    padding: 0 auto;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.sec3-div1 {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.sec3-div1 h1 {
+    color: rgb(83, 88, 98);
+    font-size: 40px;
+}
+
+.sec3-div1 p {
+    color: rgb(135, 145, 156);
+}
+
+.sec3-div2 {
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 20px;
+
+}
+
+.sec3-div2 h2 {
+    text-align: center;
+    color: rgb(83, 88, 98);
+    width: 
+}
+
+.sec3-div2 p {
+    text-align: center;
+    color: rgb(135, 145, 156);
+    font-size: 20px;
+    width:;
+    padding-top: 10px;
+}
+
+.sec3-div2 img {
+    padding-left: 80px;    
+}
+
+.col {
+    width: 33%;
+}
+
+.col-2 {
+    float: left;
+}
+
+.sec3-div2 a {
+    color:rgb(208, 74, 73);
+    text-decoration: none;
+}
